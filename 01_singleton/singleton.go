@@ -5,6 +5,7 @@ type Singleton struct{}
 
 var singleton *Singleton
 
+// 利用代码init完成单例
 func init() {
 	singleton = &Singleton{}
 }
